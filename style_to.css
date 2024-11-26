@@ -1,0 +1,91 @@
+body {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #222;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+
+  /* لتوسيط العنصر الرئيسي في الصفحة */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* اجعل الصفحة تأخذ طول النافذة بالكامل */
+}
+
+#game-container {
+  margin: 0 auto; /* احذف المسافة العلوية السابقة */
+  max-width: 400px;
+  background: #444;
+  padding: 30px; /* اجعل التباعد الداخلي أكبر قليلاً */
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5); /* تعديل الظل */
+}
+
+#countdown {
+  font-size: 64px; /* تكبير النص */
+  font-weight: bold;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+#word-container {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 28px; /* حجم النص في الحاوية */
+  display: flex; /* استخدام Flexbox */
+  flex-direction: column; /* ترتيب العناصر عموديًا */
+  align-items: center; /* توسيط العناصر أفقيًا */
+}
+
+
+#word {
+  font-size: 42px; /* تكبير النص */
+  font-weight: bold;
+  color: #00ffcc;
+  margin-bottom: 20px;
+}
+
+#input {
+  font-size: 24px; /* تكبير الحقل النصي */
+  padding: 15px;
+  width: 100%;
+  max-width: 300px; /* تحديد الحد الأقصى للعرض */
+  border: none;
+  text-align: center; /* محاذاة النص في الوسط داخل الحقل */
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+
+
+
+
+
+#timer {
+  font-size: 32px; /* تكبير المؤقت */
+  color: #ff4444;
+  margin-top: 15px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 28px; /* تكبير النص */
+  font-weight: bold;
+}
+
+#restart-btn {
+  margin-top: 20px;
+  padding: 15px 30px;
+  font-size: 20px; /* تكبير الزر */
+  background-color: #00cc88;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  display: none;
+}
+
+#restart-btn:hover {
+  background-color: #00ffcc;
+}
